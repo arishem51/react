@@ -150,7 +150,7 @@ function processStable(buildDir) {
       semverVersionsMap.set(moduleName, version);
     }
     updatePackageVersions(
-      buildDir + '/oss-stable-semver',
+      buildDir + '/oss-stable',
       semverVersionsMap,
       defaultVersionIfNotFound,
       false

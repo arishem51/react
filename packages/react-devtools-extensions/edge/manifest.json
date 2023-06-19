@@ -57,5 +57,6 @@
       ],
       "run_at": "document_start"
     }
-  ]
+  ],
+  "jest.autoRun": {}
 }
