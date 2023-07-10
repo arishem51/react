@@ -2,9 +2,7 @@ const Count = () => {
   const [count, setCount] = React.useState(0);
 
   const handleClick = () => {
-    console.log('before setState');
     setCount(count + 1);
-    console.log('after setState');
   };
 
   return (
